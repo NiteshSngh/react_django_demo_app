@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: niteshsngh/django-app:latest
+    ports:
+      - "8001:8001"
