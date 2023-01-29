@@ -29,6 +29,6 @@ spec:
   selector:
     app: react-todo
   ports:
-    - port: 8001
-      targetPort: 8090
+    - port: 80
+      targetPort: 8001
   type: LoadBalancer
